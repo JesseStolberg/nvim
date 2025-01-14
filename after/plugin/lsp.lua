@@ -34,7 +34,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 -- servers you have installed in your system
 require('lspconfig').clangd.setup({})
 require('lspconfig').lua_ls.setup({})
-require('lspconfig').golangci_lint_ls.setup({})
+require('lspconfig').gopls.setup({})
 local cmp = require('cmp')
 
 cmp.setup({
